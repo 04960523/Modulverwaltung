@@ -1,3 +1,3 @@
 # Modulverwaltung
 
-PHP-MySQL 
+PHP-MySQL App für Modul Informationssysteme
