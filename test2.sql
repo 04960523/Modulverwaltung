@@ -1,0 +1,1 @@
+INSERT INTO sc_relation (`ID`, `COURSE_ID`) VALUES (2017,10089);

@@ -1,0 +1,88 @@
+<html>
+	<head>
+	
+			<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+			<!-- Bootstrap theme -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+
+			<!-- Bootstrap JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+
+	<title> Studenten Anmelden  | Modulverwaltung</title> 
+	
+	</head>
+
+<body>
+
+			<!--Header-->
+
+<div class="container"  >
+
+						<div class="page-header" style="  margin-top:-02px; margin-bottom:-10px; ">
+						<div class="img-responsive "  ><img class="icon-bar" src="images/usa.jpg"</div>
+						<h2>Modulverwaltung System </h2><br>
+						<h3 style="color:Indigo ;">TU Bergakademie Freiberg  </h3>
+						
+						
+					
+						</div>
+
+<!--Header-end-->		
+
+
+
+<!--Nav Bar-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://www.tu-frebierg.de">TUBAF</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"> <a href="login.html">Student</a></li>
+        <li><a href="A_login.html">Staff</a></li> 
+       
+      </ul>
+    </div>
+  </div>
+</nav>		
+		
+<!--Nav Bar End-->				
+		
+	
+		
+
+
+<div class="jumbotron">
+<h3><small>Please Enter Login Credentials</small></h3><br>
+
+
+<!-- Form -->
+		<form role="form" action="S_login.php" method="POST" >
+		
+		<div class="form-group">
+			<label for="name">Login ID &nbsp </label>
+			 <input class="form-control input-md" type="text" name="id" id="id"required />
+		</div>
+		
+		<div class="form-group">
+			<label for="pwd"> Password </label>
+			<input class="form-control input-md" type="password" name="pwd" id="pwd"required /><br>
+		</div>
+				
+		<div class="form-group">
+			<input  class="btn btn-default" type="submit" name="submit" value="Submit" style="width:20%" />
+		</div>
+		
+		</form>
+		
+		</div>	
+		</div>
+		
+	</body>
